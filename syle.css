@@ -1,0 +1,101 @@
+body {
+    font-size: 15pt;
+    padding: 0;
+    margin:0;
+    background: rgba(46,82,91,0.1);
+    font-size: 10px;
+}
+.container{
+  background-color: #333;
+  margin-top: 0;
+  color: rgb(216,641,684);
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.abc{
+
+}
+ok{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ok a{
+  text-decoration: none;
+  padding:0 17px;
+  color: peru;
+}
+
+.ok a:hover{
+  color: red;
+}
+.showcase{
+ height: 100px;
+ margin:10px 10%;
+ animation-name: rm;
+ background-image: url(ab.jpg);
+ animation-duration: 5s;
+ background-size: cover;
+ animation-iteration-count: infinite;
+ background-repeat: no-repeat;
+ animation-timing-function: linear;
+}
+@keyframes rm{
+  0%{background-image: url(ab.jpg);background-position: 0px 0}
+  20%{background-image: url(ab.jpg); background-position: 0 -20px
+  }
+  40%{background-image: url(ab.jpg);background-position: 0 -50px}
+  60%{background-image: url(ab.jpg);background-position: 0px -90px}
+  80%{background-image: url(ab.jpg);background-position: 0px -110px}
+}
+.allimg{
+  display:flex;
+  flex-wrap: wrap;
+}
+.img img{
+  height: 80px;
+  width:80px;
+}
+.img{
+  width: 80px;
+  margin: 1px 5px 5px 5px;;
+}
+.img p{
+  margin-top: 0;
+  font-size: 10px;
+  padding-top: 0;
+}
+.img:hover {
+  box-sizing: border-box;
+ box-shadow:5px 5px 5px black;
+}
+.cat{
+  font-size: 14px;
+}
+.cat{
+  background: #333;
+  color: rgba(216,641,684,0.8);
+  padding: 5px 15px;
+  margin-top: 1px
+}
+.cat li{
+  font-family: "Comic Sans MS",Arial, Helvetica, sans-serif;
+}
+.foot{
+  background:#333;
+  color: rgb(216,641,684);
+  padding: 5px 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+ color: rgba(216,641,684,0.8);
+}
+.qq{
+  margin:5px;
+  display: flex;
+}
+.arko{
+  padding:5px 20px;
+}
